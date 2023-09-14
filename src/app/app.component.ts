@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
         <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
       </header>
       <section class="content">
+        <!-- html của home-component.ts -->
         <app-home></app-home>
       </section>
     </main>

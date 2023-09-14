@@ -6,6 +6,7 @@ import { Housinglocation } from '../housinglocation';
   selector: 'app-housing-location',
   standalone: true,
   imports: [CommonModule],
+  //sử dụng kỹ thuật interpolation để hiển thị dữ liệu
   template: `
   <section class="listing">
     <img class="listing-photo" [src]="housingLocation.photo" alt="Exterior photo of {{housingLocation.name}}">
@@ -18,6 +19,6 @@ import { Housinglocation } from '../housinglocation';
 
 export class HousingLocationComponent {
 
-  @Input() housingLocation!: Housinglocation;
+  @Input() housingLocation!: Housinglocation; // khai báo biến đôi tượng
 
 }
